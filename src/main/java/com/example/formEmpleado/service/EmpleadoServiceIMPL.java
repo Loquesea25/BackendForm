@@ -27,6 +27,7 @@ public class EmpleadoServiceIMPL implements IEmpleadoService{
          this.iEmpleadoRepositorio.findById(id).get();
         return this.iEmpleadoRepositorio.save(new Empleado());
     }
+
     /*@Override
     public Empleado modificarEmpleado(Empleado empleado) {
         return this.iEmpleadoRepositorio.save(empleado);
